@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    font-family: 'HelveticaNeue', 'Helvetica', sans-serif;
+    font-size: 100%;
+}
+
+html {
+    position: fixed;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden;
+}
+
+body {
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden;
+    background-color: #fff;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "canvas_ui_demo",
+  "version": "1.0.0",
+  "description": "A set of demos for Canvas UI",
+  "main": "demoBundle.js",
+  "scripts": {
+    "live": "budo src/demoMain.js:demoBundle.js --livePort 9988 -l -p 9977 -o -- -t babelify | garnish",
+    "lint": "eslint --fix src/*.js"
+  },
+  "keywords": [
+    "canvas",
+    "ui"
+  ],
+  "author": "Brian Hammond <brian@fictorial.com>",
+  "license": "MIT"
+}
