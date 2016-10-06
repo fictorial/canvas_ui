@@ -47,7 +47,7 @@ export let eventEmitter = new EventEmitter();
  * as that is what users will expect.  But, this is useful in a number of other cases.;
  */
 
-export class KeyboardView extends View {
+export default class KeyboardView extends View {
     constructor() {
         super();
 

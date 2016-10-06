@@ -8,7 +8,7 @@ import MessageView from 'canvas_ui/MessageView';
 import {FingerSizePoints} from 'canvas_ui/magic';
 import {BoldSystemFontOfSize} from 'canvas_ui/fonts';
 import View from 'canvas_ui/View';
-import KeyboardView from 'canvas_ui/KeyboardView';
+import * as KeyboardView from 'canvas_ui/KeyboardView';
 import {setPropertyRecursive} from 'canvas_ui/util';
 
 export default class RegistrationDemoView extends DemoView {

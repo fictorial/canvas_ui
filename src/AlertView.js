@@ -9,5 +9,7 @@ export default class AlertView extends MessageView {
     constructor(title, message, dismissText='OK') {
         super(title, message);
         this.addButtonWithHandler(dismissText, this.removeFromSuperview.bind(this));
+        this.width=200;
+        this.height=200;
     }
 }

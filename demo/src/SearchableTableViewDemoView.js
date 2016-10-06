@@ -1,6 +1,7 @@
 import  DemoView from './DemoView';
 import TableViewBasicDemoDataSource from './TableViewBasicDemoDataSource';
 import TableView from 'canvas_ui/TableView';
+//import KeyboardView from 'canvas_ui/KeyboardView';
 import TableSearchView from 'canvas_ui/TableSearchView';
 import NotificationView from 'canvas_ui/NotificationView';
 import {FingerSizePoints} from 'canvas_ui/magic';

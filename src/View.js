@@ -1001,7 +1001,7 @@ export default class View extends EventEmitter {
      * Mark the view as needing to be laid out.
      */
 
-    set needsLayout(needsIt = true) {
+    set needsLayout(needsIt) {
         if (this._needsLayout !== needsIt) {
             this._needsLayout = needsIt;
             viewNeedsLayout(this, needsIt);

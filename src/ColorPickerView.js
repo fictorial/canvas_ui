@@ -3,7 +3,6 @@ import View from './View';
 import {getContext} from './core';
 import Point from './Point';
 import {transparent} from './magic';
-
 /**
  * A color picker.
  *

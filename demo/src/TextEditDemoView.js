@@ -4,7 +4,7 @@ import Label from 'canvas_ui/Label';
 import TextEditView from 'canvas_ui/TextEditView';
 import Button from 'canvas_ui/Button';
 import ScrollableTextView from 'canvas_ui/ScrollableTextView';
-import KeyboardView from 'canvas_ui/KeyboardView';
+import * as KeyboardView from 'canvas_ui/KeyboardView';
 import NotificationView from 'canvas_ui/NotificationView';
 import AlertView from 'canvas_ui/AlertView';
 import {SystemFontOfSize} from 'canvas_ui/fonts';

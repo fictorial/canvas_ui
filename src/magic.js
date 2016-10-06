@@ -21,5 +21,6 @@ export function isMobile() {
 export let FingerSizePoints = isMobile() ? 50 : 60;
 
 export let StandardMargin = isMobile() ? 12 : 20;
-export let SectionMargin  = isMobile() ? 30 : 20;
+export let SectionMargin = isMobile() ? 30 : 20;
 
+export let transparent = 'rgba(255,255,255,0)';
