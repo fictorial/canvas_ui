@@ -117,7 +117,8 @@ To automatically transpile to ES5, bundle, and reload the updated code, I use:
 Here's how:
 
     $ npm install budo garnish -g
-    $ budo demo/src/demoMain.js:demoBundle.js --live -- -t babelify | garnish
+    $ cd demo
+    $ budo ./src/demoMain.js:demoBundle.js --live -- -t babelify | garnish
 
 Then open your browser to http://localhost:9966.  Note that the `demo/index.html`
 has a `script` tag loading `demoBundle.js`.

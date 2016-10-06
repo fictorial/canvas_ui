@@ -1001,7 +1001,7 @@ export default class View extends EventEmitter {
      * Mark the view as needing to be laid out.
      */
 
-    set needsLayout(needsIt = true) {
+    set needsLayout(needsIt) {
         if (this._needsLayout !== needsIt) {
             this._needsLayout = needsIt;
             viewNeedsLayout(this, needsIt);
@@ -2124,6 +2124,26 @@ export default class View extends EventEmitter {
     moveRightOf(view, offset = 0) {
         this.left = Math.round(view.right + offset);
         return this;
+    }
+
+    moveInTopLeftCorner(offset = PointZero)
+    {
+        return this.moveToLeftTop(offset);
+    }
+
+    moveInTopRightCorner(offset = PointZero)
+    {
+        return this.moveToRightTop(offset);
+    }
+
+    moveInBottomLeftCorner(offset = PointZero)
+    {
+        return this.moveToLeftBottom(offset);
+    }
+
+    moveInBottomRightCorner(offset = PointZero)
+    {
+        return this.moveToRightBottom(offset);
     }
 
     moveToLeftTop(offset = PointZero) {

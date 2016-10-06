@@ -4,7 +4,7 @@ import TextEditView from './TextEditView';
 import TableView from './TableView';
 import TableViewCell from 'canvas_ui/TableViewCell';
 import Button from './Button';
-import KeyboardView from './KeyboardView';
+import * as KeyboardView from './KeyboardView';
 import {FingerSizePoints} from './magic';
 import Point from './Point';
 

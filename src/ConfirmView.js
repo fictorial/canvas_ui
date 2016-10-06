@@ -16,5 +16,9 @@ export default class ConfirmView extends MessageView {
 
         this.addButtonWithHandler(negativeText, this.emit.bind(this, 'canceled'));
         this.addButtonWithHandler(affirmativeText, this.emit.bind(this, 'confirmed'));
+
+        this.width=200;
+        this.height=200;
+
     }
 }
