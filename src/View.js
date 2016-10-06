@@ -2126,6 +2126,26 @@ export default class View extends EventEmitter {
         return this;
     }
 
+    moveInTopLeftCorner(offset = PointZero)
+    {
+        return this.moveToLeftTop(offset);
+    }
+
+    moveInTopRightCorner(offset = PointZero)
+    {
+        return this.moveToRightTop(offset);
+    }
+
+    moveInBottomLeftCorner(offset = PointZero)
+    {
+        return this.moveToLeftBottom(offset);
+    }
+
+    moveInBottomRightCorner(offset = PointZero)
+    {
+        return this.moveToRightBottom(offset);
+    }
+
     moveToLeftTop(offset = PointZero) {
         if (this.superview) {
             this.left = Math.round(this.superview.contentLeft + offset.x);
